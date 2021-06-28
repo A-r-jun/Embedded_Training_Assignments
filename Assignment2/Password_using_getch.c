@@ -23,7 +23,12 @@ int main()
 
 	printf("\n\nEntered Password is :");
 	for (;n < i;n++)            // loop to show the entered password
+	{
 		printf("%c", password[n]);
+	}
 
 		return 0;
 }
+/*
+Output: ?
+*/
