@@ -12,10 +12,14 @@ int main()
 	{
 		password[i] = _getch(); // getch() was not working , so had to use _getch or _getwch 
 		
-    if (password[i] != '\r')// first i was checking for \n , but after debugging find out that pressing Enter key passes \r
+    		if (password[i] != '\r')// first i was checking for \n , but after debugging find out that pressing Enter key passes \r
+		{
 			printf("*");
+		}
 		else
+		{
 			break;                      // breaking the loop if enter is pressed
+		}
 		
 		i++;
 
